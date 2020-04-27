@@ -1,0 +1,4 @@
+docker run --rm --volume "`pwd`/..:/data" -w /data/chapters rstropek/pandoc-latex -t latex -o ../pandoc/textbook.pdf --pdf-engine=xelatex --template=../pandoc/cpnv.latex --metadata-file=../pandoc/textbook.yml --listings ../README.md ../chapters/*.md
+
+# Windows user may try this variant:
+# docker run --rm --volume "%cd%/..:/data" -w /data/chapters rstropek/pandoc-latex -t latex -o ../pandoc/textbook.pdf --pdf-engine=xelatex --template=../pandoc/cpnv.latex --metadata-file=../pandoc/textbook.yml --listings ../README.md ../chapters/*.md
