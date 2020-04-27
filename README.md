@@ -1,4 +1,4 @@
-Programmation orientée objet en C#
+Programmation orientée objet en C# {-}
 =====
 
 Ce livre est un support de cours à l'[Ecole Nationale Supérieure de Cognitique](https://ensc.bordeaux-inp.fr).
